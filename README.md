@@ -9,6 +9,6 @@ This module is written to be part of a nested configuration, however can stand a
 
 ```hcl-terraform
 module "demo_resource_group" {
-    source = "git@github.com:ifmorrison/terraform-azurerm-resource-group.git"
+    source = "github.com/ifmorrison/terraform-azurerm-resource-group"
     tags     = "Development"
 }
