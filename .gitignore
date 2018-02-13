@@ -1,0 +1,8 @@
+# State files
+
+*.tfstate
+*.tfstate.backup
+
+# Module directory
+
+.terraform/
