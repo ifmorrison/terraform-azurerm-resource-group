@@ -11,7 +11,7 @@ https://github.com/sjones-sot/terraform-azurerm-virtual-network
 
 ## Usage
 
-hcl-terraform
+```hcl-terraform
 module "demo_resource_group" {
     source = "github.com/ifmorrison/terraform-azurerm-resource-group"
     tags     = "Development"
