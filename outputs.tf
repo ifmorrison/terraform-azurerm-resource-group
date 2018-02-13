@@ -1,5 +1,5 @@
 output "location" {
-  value = "${azurerm_virtual_network.virtual_network.location}"
+  value = "${azurerm_resource_group.resource_group.location}"
 }
 
 output "resource_group_name" {
