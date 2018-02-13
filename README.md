@@ -10,7 +10,7 @@ This module is written to be part of a nested configuration, however can stand a
 ```hcl-terraform
 module "demo_resource_group" {
     source = "ifmorrison/resource-group/azurerm"
-    tags     = "Development"
+    tags   = { "Environment" = "Development" }
 }
 
 ```
